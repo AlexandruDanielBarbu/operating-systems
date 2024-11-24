@@ -8,8 +8,6 @@ SRCS = aslr.c
 OBJS = $(SRCS:.c=.o)
 
 # Flags for compiling and linking
-CFLAGS += -fno-stack-protector -fno-PIC
-LDFLAGS += -no-pie
 
 # Output binary
 TARGET = aslr
